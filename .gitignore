@@ -1,0 +1,45 @@
+# ============================
+# Dependencies
+# ============================
+node_modules/
+uploads/
+
+# ============================
+# Environment Variables (SECRETS)
+# ============================
+.env
+.env.local
+.env.development
+.env.production
+.env.staging
+.env*.local
+
+# ============================
+# Logs
+# ============================
+logs/
+*.log
+npm-debug.log*
+
+# ============================
+# OS Files
+# ============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================
+# IDE / Editor Files
+# ============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================
+# Build / Output
+# ============================
+dist/
+build/
+coverage/
